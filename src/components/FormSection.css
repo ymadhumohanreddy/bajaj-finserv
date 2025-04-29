@@ -1,0 +1,35 @@
+.form-section-container {
+  margin-top: 20px;
+}
+
+.form-section-container h3 {
+  margin-bottom: 10px;
+}
+
+.form-section-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.prev-button,
+.next-button,
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fc9700;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover,
+.submit-button:hover {
+  background-color: #fc9700;
+}
